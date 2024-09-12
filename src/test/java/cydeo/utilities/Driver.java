@@ -48,7 +48,7 @@ public class Driver {
                 case "remote-chrome":
                     try {
                         // assign your grid server address
-                        String gridAddress = "18.204.7.149";
+                        String gridAddress = "http://54.90.98.180";
                         URL url = new URL("http://"+ gridAddress + ":4444/wd/hub");
                         ChromeOptions chromeOptions = new ChromeOptions();
                         chromeOptions.addArguments("--start-maximized");
